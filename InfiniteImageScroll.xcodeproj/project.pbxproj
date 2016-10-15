@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24FE66153EF8FAB086B045C5 /* Pods_InfiniteImageScroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB0C81C86D2BF3180C279E8 /* Pods_InfiniteImageScroll.framework */; };
+		2F43812F1DB2AA4D00AF095F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43812E1DB2AA4D00AF095F /* AppDelegate.swift */; };
+		2F4381311DB2AA4D00AF095F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4381301DB2AA4D00AF095F /* ViewController.swift */; };
+		2F4381341DB2AA4D00AF095F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4381321DB2AA4D00AF095F /* Main.storyboard */; };
+		2F4381361DB2AA4D00AF095F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4381351DB2AA4D00AF095F /* Assets.xcassets */; };
+		2F4381391DB2AA4D00AF095F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4381371DB2AA4D00AF095F /* LaunchScreen.storyboard */; };
+		2F4381411DB2AB0D00AF095F /* InfiniteScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4381401DB2AB0D00AF095F /* InfiniteScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BB0C81C86D2BF3180C279E8 /* Pods_InfiniteImageScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteImageScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F43812B1DB2AA4D00AF095F /* InfiniteImageScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteImageScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F43812E1DB2AA4D00AF095F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F4381301DB2AA4D00AF095F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F4381331DB2AA4D00AF095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F4381351DB2AA4D00AF095F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F4381381DB2AA4D00AF095F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F43813A1DB2AA4D00AF095F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4381401DB2AB0D00AF095F /* InfiniteScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollView.swift; sourceTree = "<group>"; };
+		70C31B2C8635FBBE3F62FA96 /* Pods-InfiniteImageScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteImageScroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteImageScroll/Pods-InfiniteImageScroll.release.xcconfig"; sourceTree = "<group>"; };
+		829C303B5F79FB565623D31C /* Pods-InfiniteImageScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteImageScroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InfiniteImageScroll/Pods-InfiniteImageScroll.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F4381281DB2AA4D00AF095F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FE66153EF8FAB086B045C5 /* Pods_InfiniteImageScroll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F4381221DB2AA4D00AF095F = {
+			isa = PBXGroup;
+			children = (
+				2F43812D1DB2AA4D00AF095F /* InfiniteImageScroll */,
+				2F43812C1DB2AA4D00AF095F /* Products */,
+				906C362B3663DEFC2427507F /* Pods */,
+				657CFC2825DC23FFB77FF514 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F43812C1DB2AA4D00AF095F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F43812B1DB2AA4D00AF095F /* InfiniteImageScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F43812D1DB2AA4D00AF095F /* InfiniteImageScroll */ = {
+			isa = PBXGroup;
+			children = (
+				2F4381421DB2AB1300AF095F /* InfiniteScrollView Component */,
+				2F43812E1DB2AA4D00AF095F /* AppDelegate.swift */,
+				2F4381301DB2AA4D00AF095F /* ViewController.swift */,
+				2F4381321DB2AA4D00AF095F /* Main.storyboard */,
+				2F4381351DB2AA4D00AF095F /* Assets.xcassets */,
+				2F4381371DB2AA4D00AF095F /* LaunchScreen.storyboard */,
+				2F43813A1DB2AA4D00AF095F /* Info.plist */,
+			);
+			path = InfiniteImageScroll;
+			sourceTree = "<group>";
+		};
+		2F4381421DB2AB1300AF095F /* InfiniteScrollView Component */ = {
+			isa = PBXGroup;
+			children = (
+				2F4381401DB2AB0D00AF095F /* InfiniteScrollView.swift */,
+			);
+			name = "InfiniteScrollView Component";
+			sourceTree = "<group>";
+		};
+		657CFC2825DC23FFB77FF514 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BB0C81C86D2BF3180C279E8 /* Pods_InfiniteImageScroll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		906C362B3663DEFC2427507F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				829C303B5F79FB565623D31C /* Pods-InfiniteImageScroll.debug.xcconfig */,
+				70C31B2C8635FBBE3F62FA96 /* Pods-InfiniteImageScroll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F43812A1DB2AA4D00AF095F /* InfiniteImageScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F43813D1DB2AA4D00AF095F /* Build configuration list for PBXNativeTarget "InfiniteImageScroll" */;
+			buildPhases = (
+				28E4B1390DF26593541A6D71 /* [CP] Check Pods Manifest.lock */,
+				2F4381271DB2AA4D00AF095F /* Sources */,
+				2F4381281DB2AA4D00AF095F /* Frameworks */,
+				2F4381291DB2AA4D00AF095F /* Resources */,
+				4B3338C2D88EC6806DF7595A /* [CP] Embed Pods Frameworks */,
+				E3CC28DB4DDAFC10BD03E5FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteImageScroll;
+			productName = InfiniteImageScroll;
+			productReference = 2F43812B1DB2AA4D00AF095F /* InfiniteImageScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F4381231DB2AA4D00AF095F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ivan Solomichev";
+				TargetAttributes = {
+					2F43812A1DB2AA4D00AF095F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F4381261DB2AA4D00AF095F /* Build configuration list for PBXProject "InfiniteImageScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F4381221DB2AA4D00AF095F;
+			productRefGroup = 2F43812C1DB2AA4D00AF095F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F43812A1DB2AA4D00AF095F /* InfiniteImageScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F4381291DB2AA4D00AF095F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4381391DB2AA4D00AF095F /* LaunchScreen.storyboard in Resources */,
+				2F4381361DB2AA4D00AF095F /* Assets.xcassets in Resources */,
+				2F4381341DB2AA4D00AF095F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28E4B1390DF26593541A6D71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3338C2D88EC6806DF7595A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteImageScroll/Pods-InfiniteImageScroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CC28DB4DDAFC10BD03E5FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InfiniteImageScroll/Pods-InfiniteImageScroll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F4381271DB2AA4D00AF095F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4381411DB2AB0D00AF095F /* InfiniteScrollView.swift in Sources */,
+				2F4381311DB2AA4D00AF095F /* ViewController.swift in Sources */,
+				2F43812F1DB2AA4D00AF095F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F4381321DB2AA4D00AF095F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F4381331DB2AA4D00AF095F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F4381371DB2AA4D00AF095F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F4381381DB2AA4D00AF095F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F43813B1DB2AA4D00AF095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F43813C1DB2AA4D00AF095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F43813E1DB2AA4D00AF095F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829C303B5F79FB565623D31C /* Pods-InfiniteImageScroll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfiniteImageScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.vanijatko.InfiniteImageScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F43813F1DB2AA4D00AF095F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C31B2C8635FBBE3F62FA96 /* Pods-InfiniteImageScroll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfiniteImageScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.vanijatko.InfiniteImageScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F4381261DB2AA4D00AF095F /* Build configuration list for PBXProject "InfiniteImageScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F43813B1DB2AA4D00AF095F /* Debug */,
+				2F43813C1DB2AA4D00AF095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F43813D1DB2AA4D00AF095F /* Build configuration list for PBXNativeTarget "InfiniteImageScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F43813E1DB2AA4D00AF095F /* Debug */,
+				2F43813F1DB2AA4D00AF095F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F4381231DB2AA4D00AF095F /* Project object */;
+}
